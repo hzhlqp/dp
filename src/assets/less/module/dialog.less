@@ -1,0 +1,97 @@
+@import '../module/var.less';
+
+.upload-con {
+    padding: 0 60px;
+
+    .logo {
+        width: 85px;
+        height: 85px;
+        background: #DEDEDE;
+        border-radius: 50%;
+        text-align: center;
+
+        i {
+            width: 30px;
+            height: 25px;
+            display: inline-block;
+            margin-top: 30px;
+            background-image: url('../../img/file.png');
+        }
+    }
+
+    .title {
+        margin: 50px 0 15px;
+        font-size: 32px;
+        color: #333238;
+    }
+
+    .tip,
+    .el-upload__tip {
+        margin-bottom: 45px;
+        font-size: 14px;
+        color: #94979B;
+    }
+
+    .el-upload__tip {
+        margin-bottom: 0;
+    }
+
+    .el-upload-dragger {
+        width: 540px;
+        height: 246px;
+        border: 1px dashed rgba(0, 92, 255, 1);
+
+        .el-icon-upload {
+            margin: 50px 0;
+            display: inline-block !important;
+            width: 45px;
+            height: 42px;
+            display: block;
+            background: url('../../img/upload.png') no-repeat center center /cover;
+
+            &::before {
+                display: none;  
+            }
+        }
+    }
+
+    .dialog-form-item {
+        margin-top: 48px;
+        margin-bottom: 200px;
+        .label {
+            color: #BABCBF;
+            font-size: 14px;
+        }
+
+        input {
+            text-indent: 46px;
+            width:218px;
+            height:40px;
+            background:rgba(255,255,255,1);
+            box-shadow:0px 8px 16px 0px rgba(140,140,140,0.3),0px 0px 8px 0px rgba(140,140,140,0.4);
+        }
+    }
+}
+
+.export-des {
+    padding-top: 50px;
+
+    .export-item {
+        margin-bottom: 30px;
+
+        .name {
+            width: 120px;
+            font-size: 14px;
+            color: #94979B;
+        }
+
+        .val {
+            font-size: 21px;
+            color: #232327;
+
+            &.red {
+                color: #E60312
+            }
+        }
+    }
+}

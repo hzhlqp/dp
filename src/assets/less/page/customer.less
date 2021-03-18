@@ -1,0 +1,72 @@
+.customer-main {
+    .table-control {
+        padding: 0 70px 0 15px;
+        height: 50px;
+        background: #f6f6f6;
+
+        .des {
+            color: #94979b;
+            font-size: 14px;
+
+            .des-item {
+                margin-right: 50px;
+                line-height: 21px;
+
+                .red {
+                    font-size: 21px;
+                    color: #e60312;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .import {
+            a {
+                margin-left: 30px;
+                color: #94979b;
+                font-size: 14px;
+
+                span {
+                    margin-left: 12px;
+                }
+            }
+
+            .icon-import {
+                width: 26px;
+                height: 20px;
+                background-image: url("../../img/import.png");
+            }
+
+            .icon-export {
+                width: 26px;
+                height: 20px;
+                background-image: url("../../img/export.png");
+            }
+        }
+    }
+
+    .el-form--inline {
+        width: 100%;
+        display: flex;
+
+        .el-form-item {
+            flex: 1;
+            display: flex;
+
+            &:last-child {
+                width: 87px;
+                flex: none;
+            }
+
+            .el-form-item__content {
+                flex: 1;
+
+                .el-select,
+                .el-input__inner {
+                    width: 100%;
+                    box-shadow: 0px 8px 16px 0px rgba(140, 140, 140, 0.3), 0px 0px 8px 0px rgba(140, 140, 140, 0.4);
+                }
+            }
+        }
+    }
+}

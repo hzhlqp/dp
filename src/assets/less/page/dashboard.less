@@ -1,0 +1,122 @@
+.chart-main {
+  background: #F4F6F9;
+
+  .info-con {
+    li {
+      margin-bottom: 20px;
+    }
+
+    .info-title {
+      color: #1b253a;
+      font-size: 18px;
+      height: 75px;
+      font-weight: bold;
+      padding: 25px 0;
+
+      a {
+        font-size: 14px;
+        color: #3a84ff;
+        font-weight: normal;
+      }
+
+      .time {
+        font-size: 16px;
+        color: #333;
+        font-weight: normal;
+
+        .txt {
+          color: #666;
+        }
+      }
+    }
+
+    .left {
+      padding: 0 20px 0 30px;
+      margin-right: 20px;
+      height: 385px;
+      background: #fff;
+
+      .des-item {
+        margin-bottom: 42px;
+
+        .name {
+          margin: 15px 0;
+          font-size: 12px;
+          color: #637280;
+        }
+
+        .val {
+          font-size: 36px;
+          color: #343434;
+        }
+
+        .qu {
+          position: relative;
+          font-size: 24px;
+          line-height: 33px;
+          padding-left: 15px;
+
+          &:after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: block;
+            font-size: 24px;
+          }
+
+          &.up {
+            color: #33d067;
+
+            &::after {
+              content: "\2191";
+            }
+          }
+
+          &.down {
+            color: #dd4545;
+
+            &::after {
+              content: "\2193";
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      padding: 0 20px 0 30px;
+      width: 287px;
+      height: 385px;
+      background: #fff;
+
+      .name {
+        font-size: 17px;
+        color: #1b253a;
+      }
+
+      .val {
+        font-size: 14px;
+
+        &.up {
+          color: #33d067;
+        }
+
+        &.down {
+          color: #dd4545;
+        }
+      }
+    }
+  }
+
+  .echart-con {
+    background: #fff;
+    margin-top: 20px;
+    padding: 25px 30px;
+
+    .echart-title {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #1b253a;
+    }
+  }
+}

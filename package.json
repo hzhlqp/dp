@@ -1,0 +1,86 @@
+{
+  "name": "vue-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:local": "vue-cli-service build --mode local",
+    "build:uat": "vue-cli-service build --mode uat",
+    "serve:uat": "vue-cli-service serve --mode uat",
+    "serve:prod": "vue-cli-service serve --mode production",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
+    "html2canvas": "^1.0.0-rc.5",
+    "image-webpack-loader": "^6.0.0",
+    "js-cookie": "^2.2.1",
+    "register-service-worker": "^1.6.2",
+    "v-charts": "^1.19.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^5.2.4",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-pwa": "^3.11.0",
+    "@vue/cli-plugin-typescript": "^3.11.0",
+    "@vue/cli-plugin-unit-mocha": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "axios": "^0.19.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "chai": "^4.1.2",
+    "compression-webpack-plugin": "^3.0.0",
+    "element-ui": "2.13.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "prettier": "^1.18.2",
+    "style-resources-loader": "^1.2.1",
+    "typescript": "^3.4.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {
+      "no-console": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "trailingComma": "none",
+          "bracketSpacing": true,
+          "jsxBracketSameLine": true
+        }
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}
